@@ -1,1 +1,12 @@
-<h1>Welcome to 7th Heaven</h1>
+<script>
+    import Acknoledgements from "../components/acknoledgements.svelte";
+import Home from "../components/home.svelte";
+
+</script>
+
+<section id=#home>
+    <Home/>
+</section>
+<section id=#acknowledgements>
+    <Acknoledgements />
+</section>
