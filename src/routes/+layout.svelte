@@ -1,30 +1,32 @@
 <script>
     import { page } from '$app/stores';
+    import Icon from '@iconify/svelte';
     import '../app.css';
 
     let navLinks = [
         {
-            title: "Home",
-            link: "#home"
+            title: 'Home',
+            link: '#home'
         },
         {
-            title: "Download",
-            link: "#download"
+            title: 'Download',
+            link: '#download'
         },
         {
-            title: "Acknowledgements",
-            link: "#acknowledgements"
+            title: 'Acknowledgements',
+            link: '#acknowledgements'
         }
-    ]
+    ];
 
     $: hrefPath = $page.url.href.substring($page.url.origin.length + 1);
     $: currentNavLink = navLinks.findIndex((navLink) => navLink.link === hrefPath);
     $: validNavLink = currentNavLink != -1 ? currentNavLink : 0;
 
     let navbarHidden = true;
-    const unselectedNavLinkClass = "block rounded py-2 pl-3 pr-4 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:bg-transparent md:dark:hover:text-blue-500";
-    const selectedNavLinkClass = "block rounded bg-blue-700 py-2 pl-3 pr-4 text-white dark:text-white md:bg-transparent md:p-0 md:text-blue-700 md:dark:text-blue-500"
-    
+    const unselectedNavLinkClass =
+        'block rounded py-2 pl-3 pr-4 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:bg-transparent md:dark:hover:text-blue-500';
+    const selectedNavLinkClass =
+        'block rounded bg-blue-700 py-2 pl-3 pr-4 text-white dark:text-white md:bg-transparent md:p-0 md:text-blue-700 md:dark:text-blue-500';
 </script>
 
 <nav class="border-gray-200 bg-white dark:bg-gray-900">
@@ -66,15 +68,22 @@
             >
                 {#each navLinks as navLink, i}
                     <li>
-                        <a 
-                            class={validNavLink === i ? selectedNavLinkClass : unselectedNavLinkClass}
+                        <a
+                            class={validNavLink === i
+                                ? selectedNavLinkClass
+                                : unselectedNavLinkClass}
                             href={navLink.link}
-                            aria-current={validNavLink === i ? "page" : null}
+                            aria-current={validNavLink === i ? 'page' : null}
                         >
                             {navLink.title}
                         </a>
                     </li>
                 {/each}
+                <li class="block self-center">
+                    <a href="https://github.com/tsunamods-codes/7th-Heaven">
+                        <Icon icon="mdi:github" width="24" />
+                    </a>
+                </li>
             </ul>
         </div>
     </div>

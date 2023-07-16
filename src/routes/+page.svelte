@@ -4,9 +4,11 @@ import Home from "../components/home.svelte";
 
 </script>
 
-<section id=#home>
-    <Home/>
-</section>
-<section id=#acknowledgements>
-    <Acknoledgements />
-</section>
+<div class="px-5 xl:px-40">
+    <section id=#home>
+        <Home/>
+    </section>
+    <section id=#acknowledgements>
+        <Acknoledgements />
+    </section>
+</div>
