@@ -1,7 +1,6 @@
 @tailwind base;
 @layer base {
     body {
-        /* color-theme: https://realtimecolors.com/?colors=f8fbfb-090f10-364463-100a09-4392A4 */
         @apply text-black dark:text-white;
         @apply bg-white dark:bg-black;
         @apply accent-accent;
