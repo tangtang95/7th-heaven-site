@@ -1,6 +1,10 @@
 # 7th Heaven Site
 
-Website for 7th Heaven mod manager written in *Svelte* and *Tailwind CSS*
+[![Netlify Status](https://api.netlify.com/api/v1/badges/cdc3885f-c6f8-4e90-aeb0-d8c634226f24/deploy-status)](https://app.netlify.com/sites/7th-heaven/deploys)
+
+Experimentational new Website for 7th Heaven mod manager written in *Svelte* and *Tailwind CSS*
+
+For the preview of the current website, go to this page: https://7th-heaven.netlify.app
 
 ## Local development
 
