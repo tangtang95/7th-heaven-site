@@ -24,7 +24,8 @@
     }
 
     p {
-        @apply my-2;
+        @apply my-3;
+        @apply text-justify;
     }
 }
 
