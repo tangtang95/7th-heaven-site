@@ -29,7 +29,7 @@
         'block rounded bg-blue-700 py-2 pl-3 pr-4 text-white dark:text-white md:bg-transparent md:p-0 md:text-blue-700 md:dark:text-blue-500';
 </script>
 
-<nav class="border-gray-200 bg-white dark:bg-gray-900">
+<nav class="border-gray-200">
     <div class="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between p-4">
         <a href="/" class="flex items-center">
             <img src="logo.png" class="mr-3 h-8" alt="7th Heaven Logo" />
