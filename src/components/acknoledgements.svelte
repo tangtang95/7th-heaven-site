@@ -37,9 +37,9 @@
     ];
 </script>
 
-<h3 class="py-4 text-center">Acknowledgements</h3>
+<h2 class="py-4 text-center">Acknowledgements</h2>
 <div class="flex flex-col py-2">
-    <p class="my-3">The developers wish to thank you for using 7th Heaven.</p>
+    <p>The developers wish to thank you for using 7th Heaven.</p>
     {#each acks as ack}
         <div class="py-2">
             <h4 class="font-semibold">{ack.title}</h4>
@@ -47,10 +47,7 @@
                 {#each ack.list as ackList}
                     <li class="pl-3">
                         {#if ackList.link}
-                            <a
-                                class="text-primary hover:underline dark:text-accent"
-                                href={ackList.link}>{ackList.content}</a
-                            >
+                            <a href={ackList.link}>{ackList.content}</a>
                         {:else}
                             {ackList.content}
                         {/if}
