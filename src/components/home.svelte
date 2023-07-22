@@ -1,6 +1,6 @@
 <div class="flex flex-col items-center">
-    <h1 class="text-4xl">7th Heaven</h1>
-    <h3 class="text-2xl">The Ultimate Mod Manager for Final Fantasy VII PC</h3>
+    <h1>7th Heaven</h1>
+    <h3>The Ultimate Mod Manager for Final Fantasy VII PC</h3>
     <img class="w-9/10 px-10 py-2 xl:w-5/6" src="/7th-heaven-home.png" alt="7th Heaven" />
 </div>
 

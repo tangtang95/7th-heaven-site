@@ -37,18 +37,18 @@
     ];
 </script>
 
-<h1 class="py-4 text-center text-2xl">Acknowledgements</h1>
+<h3 class="py-4 text-center">Acknowledgements</h3>
 <div class="flex flex-col py-2">
     <p class="my-3">The developers wish to thank you for using 7th Heaven.</p>
     {#each acks as ack}
         <div class="py-2">
-            <h1 class="text-xl font-semibold">{ack.title}</h1>
+            <h4 class="font-semibold">{ack.title}</h4>
             <ul class="list-inside list-disc">
                 {#each ack.list as ackList}
                     <li class="pl-3">
                         {#if ackList.link}
                             <a
-                                class="text-blue-600 hover:underline dark:text-blue-500"
+                                class="text-primary hover:underline dark:text-accent"
                                 href={ackList.link}>{ackList.content}</a
                             >
                         {:else}
