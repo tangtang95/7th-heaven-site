@@ -6,7 +6,7 @@
     let navLinks = [
         {
             title: 'Home',
-            link: '#home'
+            link: '/'
         },
         {
             title: 'Download',

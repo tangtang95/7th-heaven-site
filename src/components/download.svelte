@@ -11,7 +11,7 @@
 </p>
 <div class="text-center">
     <h3>7th Heaven 3.1 (Stable Build)</h3>
-    <a href="">
+    <a href="/">
         <Button>Download 7th Heaven Stable Setup</Button>
     </a>
 </div>
@@ -20,7 +20,7 @@
     features we are working on and may be buggy.
 </p>
 <div class="text-center">
-    <a href="">
+    <a href="/">
         <Button class="p-2">Download Canary Build</Button>
     </a>
 </div>
@@ -32,6 +32,6 @@
     libraries from the second link (x86 and x64).
 </p>
 <ul class="list-inside list-disc pl-3">
-    <li><a href="">Microsoft .NET Desktop Runtime</a></li>
-    <li><a href="">Microsoft Visual C++ Redistributable</a></li>
+    <li><a href="/">Microsoft .NET Desktop Runtime</a></li>
+    <li><a href="/">Microsoft Visual C++ Redistributable</a></li>
 </ul>
