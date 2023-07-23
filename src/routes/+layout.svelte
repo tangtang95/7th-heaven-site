@@ -65,7 +65,7 @@
                 {#each navLinks as navLink, i}
                     <li>
                         <a
-                            class='block rounded py-2 pl-3 pr-4 hover:bg-accent hover:text-white md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-accent'
+                            class="block rounded py-2 pl-3 pr-4 hover:bg-accent hover:text-white md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-accent"
                             class:md:text-accent={validNavLink === i}
                             href={navLink.link}
                             aria-current={validNavLink === i ? 'page' : null}
@@ -75,7 +75,10 @@
                     </li>
                 {/each}
                 <li class="block self-center">
-                    <a class="hover:text-accent" href="https://github.com/tsunamods-codes/7th-Heaven">
+                    <a
+                        class="hover:text-accent"
+                        href="https://github.com/tsunamods-codes/7th-Heaven"
+                    >
                         <Icon icon="mdi:github" width="24" />
                     </a>
                 </li>

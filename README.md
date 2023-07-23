@@ -3,7 +3,7 @@
 ![CI workflow](https://github.com/tangtang95/7th-heaven-site/actions/workflows/ci.yml/badge.svg)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/cdc3885f-c6f8-4e90-aeb0-d8c634226f24/deploy-status)](https://app.netlify.com/sites/7th-heaven/deploys)
 
-Experimentational new Website for 7th Heaven mod manager written in *Svelte* and *Tailwind CSS*
+Experimentational new Website for 7th Heaven mod manager written in _Svelte_ and _Tailwind CSS_
 
 For the preview of the current website, go to this page: https://7th-heaven.netlify.app
 

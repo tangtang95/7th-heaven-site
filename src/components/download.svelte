@@ -24,7 +24,8 @@
             <Button>Download 7th Heaven Stable Setup</Button>
         </a>
     </div>
-{:catch} <!-- Fallback to Github Latest Release page -->
+{:catch}
+    <!-- Fallback to Github Latest Release page -->
     <div class="text-center">
         <h3>7th Heaven Stable Release Github Link</h3>
         <a href="https://github.com/tsunamods-codes/7th-Heaven/releases/latest">
@@ -49,6 +50,15 @@
     libraries from the second link (x86 and x64).
 </p>
 <ul class="list-inside list-disc pl-3">
-    <li><a href="https://dotnet.microsoft.com/en-us/download/dotnet/7.0">Microsoft .NET Desktop Runtime</a></li>
-    <li><a href="https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2015-2017-2019-and-2022">Microsoft Visual C++ Redistributable</a></li>
+    <li>
+        <a href="https://dotnet.microsoft.com/en-us/download/dotnet/7.0"
+            >Microsoft .NET Desktop Runtime</a
+        >
+    </li>
+    <li>
+        <a
+            href="https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2015-2017-2019-and-2022"
+            >Microsoft Visual C++ Redistributable</a
+        >
+    </li>
 </ul>
