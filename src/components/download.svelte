@@ -1,10 +1,10 @@
 <script lang="ts">
     import Button from './button.svelte';
     import Spinner from './spinner.svelte';
-    import { getLatestRelease } from '$lib/7th-heaven-github-api';
     import Icon from '@iconify/svelte';
+    import { getLatest7thRelease } from '$lib/mod-manager-service';
 
-    const releaseInfo = getLatestRelease('tsunamods-codes', '7th-Heaven');
+    const releaseInfo = getLatest7thRelease();
 </script>
 
 <h2 class="py-4 text-center">Download</h2>

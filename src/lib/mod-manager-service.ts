@@ -1,4 +1,5 @@
 import { Octokit } from '@octokit/core';
+import { MOD_MANAGER_REPO } from './constants';
 
 type ReleaseInfo = {
     url: string;
@@ -9,10 +10,10 @@ type ReleaseInfo = {
 
 const octokit = new Octokit();
 
-export const getLatestRelease = async (owner: string, repo: string): Promise<ReleaseInfo> => {
+export async function getLatest7thRelease(): Promise<ReleaseInfo> {
     const releaseResponse = await octokit.request('GET /repos/{owner}/{repo}/releases/latest', {
-        owner,
-        repo,
+        owner: MOD_MANAGER_REPO.owner,
+        repo: MOD_MANAGER_REPO.repo,
         headers: {
             'X-GitHub-Api-Version': '2022-11-28'
         }
