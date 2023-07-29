@@ -19,8 +19,8 @@
     </div>
 {:then releaseInfo}
     <div class="text-center">
-        <h3>7th Heaven {releaseInfo.tag_name} (Stable Build)</h3>
-        <a href={releaseInfo.exe_download_url}>
+        <h3>7th Heaven {releaseInfo.tagName} (Stable Build)</h3>
+        <a href={releaseInfo.exeDownloadUrl}>
             <Button>Download 7th Heaven Stable Setup</Button>
         </a>
     </div>
