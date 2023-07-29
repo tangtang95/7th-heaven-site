@@ -4,6 +4,8 @@ on: [pull_request]
 
 jobs:
     auto-merge:
+        name: Dependabot Auto Merge
+        if: ${{ github.actor == 'dependabot[bot]' }}
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v3
