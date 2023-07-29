@@ -1,6 +1,6 @@
 <script lang="ts">
-    import Spinner from "./spinner.svelte";
-    import { getModsFromCatalogTagRelease } from "$lib/catalog-service";
+    import Spinner from './spinner.svelte';
+    import { getModsFromCatalogTagRelease } from '$lib/catalog-service';
 
     const mods = getModsFromCatalogTagRelease('canary');
 </script>
@@ -11,7 +11,7 @@
         <Spinner />
     </div>
 {:then mods}
-    <ul class="list-disc list-inside">
+    <ul class="list-inside list-disc">
         {#each mods as mod}
             <li>{mod.Name}</li>
         {/each}

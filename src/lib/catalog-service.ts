@@ -60,7 +60,7 @@ export async function getModsFromCatalogTagRelease(tag: string): Promise<Catalog
     const mods = xmlDataList
         .map((xml) => parser.parse(xml) as Catalog)
         .map((catalog) => catalog.Catalog.Mods.Mod)
-        .flatMap(catalog => catalog);
+        .flatMap((catalog) => catalog);
     return mods;
 }
 
