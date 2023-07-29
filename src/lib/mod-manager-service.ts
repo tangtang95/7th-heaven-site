@@ -36,4 +36,4 @@ export async function getLatest7thRelease(): Promise<ReleaseInfo> {
         exeDownloadUrl,
         zipDownloadUrl
     };
-};
+}
