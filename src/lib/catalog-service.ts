@@ -10,7 +10,7 @@ type CatalogMod = {
     Category: string;
     LatestVersion: {
         Version: string;
-        Link: string;
+        Link: string | string[];
         DownloadSize: number;
         PreviewImage: string;
         ReleaseDate: string;
