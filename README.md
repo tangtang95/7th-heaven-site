@@ -34,12 +34,12 @@ You can preview the production build with `npm run preview`.
 
 In case, you are using VSCode, I am using the following extension ids:
 
--   svelte.svelte-vscode
--   ardenivanov.svelte-intellisense
--   bradlc.vscode-tailwindcss
--   dbaeumer.vscode-eslint
--   esbenp.prettier-vscode
--   rvest.vs-code-prettier-eslint
+- svelte.svelte-vscode
+- ardenivanov.svelte-intellisense
+- bradlc.vscode-tailwindcss
+- dbaeumer.vscode-eslint
+- esbenp.prettier-vscode
+- rvest.vs-code-prettier-eslint
 
 Moreover, I added a configuration in `settings.json` to get eslint error in svelte files:
 
