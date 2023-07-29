@@ -2,6 +2,7 @@
     import Acknoledgements from '../components/acknoledgements.svelte';
     import Download from '../components/download.svelte';
     import Home from '../components/home.svelte';
+    import Mods from '../components/mods.svelte';
 </script>
 
 <div class="px-5 xl:px-72">
@@ -13,6 +14,9 @@
     </section>
     <section id="acknowledgements">
         <Acknoledgements />
+    </section>
+    <section id="mods">
+        <Mods />
     </section>
 </div>
 

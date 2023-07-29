@@ -28,6 +28,7 @@ module.exports = {
         }
     ],
     rules: {
-        camelcase: 'warn'
+        camelcase: 'warn',
+        'no-console': 'error'
     }
 };
