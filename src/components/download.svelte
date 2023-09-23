@@ -2,6 +2,7 @@
     import Button from './button.svelte';
     import Spinner from './spinner.svelte';
     import { getLatestRelease } from '$lib/7th-heaven-github-api';
+    import Icon from '@iconify/svelte';
 
     const releaseInfo = getLatestRelease('tsunamods-codes', '7th-Heaven');
 </script>
@@ -19,9 +20,10 @@
     </div>
 {:then releaseInfo}
     <div class="text-center">
-        <h3>7th Heaven {releaseInfo.tagName} (Stable Build)</h3>
         <a href={releaseInfo.exeDownloadUrl}>
-            <Button>Download 7th Heaven Stable Setup</Button>
+            <Button>
+                <Icon icon="material-symbols:download" width="32px" height="32px" class="inline"/> <span class="align-middle">7th Heaven {releaseInfo.tagName} Stable Setup</span>
+            </Button>
         </a>
     </div>
 {:catch}
