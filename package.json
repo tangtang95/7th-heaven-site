@@ -14,7 +14,7 @@
     },
     "type": "module",
     "dependencies": {
-        "@octokit/core": "^5.0.0"
+        "@octokit/core": "^5.0.1"
     },
     "devDependencies": {
         "@iconify/svelte": "^3.1.4",
